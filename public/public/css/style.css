@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.login {
+    text-align: center;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+button[type="submit"] {
+    background-color: #000; /* Botón negro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+button[type="submit"]:hover {
+    background-color: #333; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilos para los enlaces */
+.links {
+    text-align: center;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 10px; /* Espaciado entre los enlaces */
+    color: #000; /* Color de texto negro */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+.links a:hover {
+    color: #333; /* Cambio de color al pasar el cursor */
+}
+/* Estilos para el logo */
+
+
+/* Estilos para el contenedor del formulario */
+.login {
+    text-align: center;
+}
+
+/* Estilos para el logo */
+
+/* Estilos para el logo */
+.logo {
+    width: 400px; /* Ancho del logo */
+    margin: 20px auto 10px; /* Margen superior, centrado horizontalmente y margen inferior */
+    display: block; /* Para centrar horizontalmente */
+}
+
+/* Estilos para los enlaces de redes sociales */
+.social-media {
+    position: fixed;
+    top: 20px; /* Ajusta la posición vertical */
+    right: 20px; /* Ajusta la posición horizontal */
+    text-align: center;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 10px; /* Espaciado entre los enlaces */
+}
+
+.social-media img {
+    width: 30px; /* Ancho de los logos */
+    height: auto; /* Altura automática */
+}

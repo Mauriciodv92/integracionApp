@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Contraseñas</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <style>
+        /* Estilos para el logo en la esquina superior izquierda */
+        .logo {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 100px; /* Ancho del logo */
+            height: auto; /* Altura automática */
+            z-index: 9999; /* Para asegurarse de que esté sobre otros elementos */
+        }
+
+        /* Estilos para la tabla */
+        .password-table-container {
+            margin-top: 100px; /* Espacio entre el logo y la tabla */
+            width: 80%; /* Ancho de la tabla */
+            margin-left: 10%; /* Centrar a la izquierda */
+        }
+
+        .password-table {
+            width: 100%; /* Ancho de la tabla */
+            border-collapse: collapse; /* Colapso de bordes de la tabla */
+        }
+
+        .password-table th, .password-table td {
+            padding: 10px; /* Espaciado interno de las celdas */
+            border: 1px solid #ddd; /* Borde de las celdas */
+            text-align: left; /* Alineación del texto a la izquierda */
+        }
+
+        .password-table th {
+            background-color: #f2f2f2; /* Color de fondo del encabezado */
+        }
+
+        /* Estilos para el botón "Seleccionar" */
+        .select-button {
+            background-color: black; /* Color de fondo del botón */
+            color: white; /* Color del texto del botón */
+            border: none; /* Borde del botón */
+            padding: 8px 16px; /* Espaciado interno del botón */
+            text-align: center; /* Alineación del texto en el botón */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Mostrar como un bloque en línea */
+            margin: 4px 2px; /* Margen externo del botón */
+            cursor: pointer; /* Cursor al pasar sobre el botón */
+            border-radius: 5px; /* Radio del borde del botón */
+        }
+         /* Estilos para el botón "Seleccionar" */
+         .add-new-button {
+            background-color: black; /* Color de fondo del botón */
+            color: white; /* Color del texto del botón */
+            border: none; /* Borde del botón */
+            padding: 8px 16px; /* Espaciado interno del botón */
+            text-align: center; /* Alineación del texto en el botón */
+            text-decoration: none; /* Sin subrayado */
+            display: inline-block; /* Mostrar como un bloque en línea */
+            margin: 4px 2px; /* Margen externo del botón */
+            cursor: pointer; /* Cursor al pasar sobre el botón */
+            border-radius: 5px; /* Radio del borde del botón */
+        }
+
+        .select-button:hover {
+            background-color: #333; /* Color de fondo del botón al pasar el cursor */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Aquí agregamos el logo -->
+            <img src="public/images/Logo.png" alt="Logo" class="logo">
+            <h1>Listado de Contraseñas</h1>
+            <!-- Botón para agregar nueva contraseña -->
+            <div class="add-new-button">
+                <button class="add-new-button">Agregar nuevca contraseña</button>
+            </div>
+        </header>
+        <main>
+            
+            
+            <div class="password-table-container">
+                <!-- Tabla de contraseñas -->
+                <table class="password-table">
+                    <thead>
+                        <tr>
+                            <th>Nombre de la página</th>
+                            <th>Seleccionar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Ejemplos de datos -->
+                        <tr>
+                            <td>Facebook</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Repite estos ejemplos de datos según sea necesario para tener un total de 15 -->
+                        <!-- Ejemplo 1 -->
+                        <tr>
+                            <td>Ejemplo 1</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 2 -->
+                        <tr>
+                            <td>Ejemplo 2</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 3 -->
+                        <tr>
+                            <td>Ejemplo 3</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 4 -->
+                        <tr>
+                            <td>Ejemplo 4</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 5 -->
+                        <tr>
+                            <td>Ejemplo 5</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 6 -->
+                        <tr>
+                            <td>Ejemplo 6</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 7 -->
+                        <tr>
+                            <td>Ejemplo 7</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 8 -->
+                        <tr>
+                            <td>Ejemplo 8</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 9 -->
+                        <tr>
+                            <td>Ejemplo 9</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 10 -->
+                        <tr>
+                            <td>Ejemplo 10</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 11 -->
+                        <tr>
+                            <td>Ejemplo 11</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 12 -->
+                        <tr>
+                            <td>Ejemplo 12</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 13 -->
+                        <tr>
+                            <td>Ejemplo 13</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 14 -->
+                        <tr>
+                            <td>Ejemplo 14</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                        <!-- Ejemplo 15 -->
+                        <tr>
+                            <td>Ejemplo 15</td>
+                            <td><button class="select-button">Seleccionar</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                
+                <div class="social-media">
+                    <a href="#"><img src="public/images/facebook_logo.png" alt="Facebook"></a>
+                    <a href="#"><img src="public/images/instagram_logo.png" alt="Instagram"></a>
+                    <a href="#"><img src="public/images/whatsapp_logo.png" alt="WhatsApp"></a>
+                    <a href="#"><img src="public/images/twitter_logo.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contraseña eliminada</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <style>
+        /* Estilos para el logo en la esquina superior izquierda */
+        .logo {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 100px; /* Ancho del logo */
+            height: auto; /* Altura automática */
+            z-index: 9999; /* Para asegurarse de que esté sobre otros elementos */
+        }
+
+        /* Estilos para el contenedor de mensaje */
+        .message-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            width: 80%;
+            margin-left: 10%;
+            height: 300px;
+        }
+
+        /* Estilos para el mensaje */
+        .message {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+        }
+
+        /* Estilos para el botón */
+        .button-container {
+            text-align: center;
+        }
+
+        .button-container button {
+            background-color: black;
+            color: white; /* Cambiado a blanco */
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button-container button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Aquí agregamos el logo -->
+            <img src="public/images/Logo.png" alt="Logo" class="logo">
+        </header>
+        <main>
+            <div class="message-container">
+                <!-- Mensaje -->
+                <div class="message">Contraseña Eliminada</div>
+                <!-- Botón -->
+                <div class="button-container">
+                    <button>Ir a lista de contraseñas</button>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="public/images/facebook_logo.png" alt="Facebook"></a>
+                <a href="#"><img src="public/images/instagram_logo.png" alt="Instagram"></a>
+                <a href="#"><img src="public/images/whatsapp_logo.png" alt="WhatsApp"></a>
+                <a href="#"><img src="public/images/twitter_logo.png" alt="Twitter"></a>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
